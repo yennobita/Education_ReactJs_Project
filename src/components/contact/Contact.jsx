@@ -3,16 +3,14 @@ import Back from "../common/back/Back";
 import "./contact.css";
 
 const Contact = () => {
-  const map =
-    '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15334.463351148945!2d108.1389401723948!3d16.085412878250324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1677930599714!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
+  // const map =
+  //   '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15334.463351148945!2d108.1389401723948!3d16.085412878250324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1677930599714!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>';
   return (
     <>
       <Back title="Contact us" />
       <section className="contacts padding">
         <div className="container shadow flexSB">
-          <div className="left row">
-            <iframe src={map}></iframe>
-          </div>
+          <div className="left row">{/* <iframe src={map}></iframe> */}</div>
           <div className="right row">
             <h1>Contact us</h1>
             <p>We're open for any suggestion or just to have a chat</p>
